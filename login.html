@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- stylesheet -->
+    <link rel="icon" href="assets/images/icon.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Login</title>
+  </head>
+  <body>
+
+    
+  <div class="top-bar">
+    <span>Have any question? <a href="#">(+234) 7046856115</a></span>
+    <div>
+      <a href="login.html">Log In</a>
+      <a href="register.html">Register</a>
+    </div>
+  </div>
+
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html"><img src="assets/images/logo.png" alt="Study Logo"></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">HOME</a></li>
+      <li class="dropdown">
+        <a href="#">COURSES</a>
+        <div class="dropdown-content">
+          <a href="course.html">Course </a>
+          <a href="course-details.html">Course Details</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#event">EVENT</a>
+        <div class="dropdown-content">
+          <a href="event.html">EVENT</a>
+          <a href="event-details.html">Event Details</a>
+        </div>
+      </li>
+      <li><a href="gallery.html">GALLERY</a></li>
+      
+      <li class="dropdown">
+        <a href="#">NEWS</a>
+        <div class="dropdown-content">
+          <a href="news.html">News </a>
+          <a href="news-details.html">News Details</a>
+        </div>
+      </li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mobile-menu-close">
+      <i class="fas fa-times"></i>
+    </div>
+    <div class="search-container">
+      <span class="search-icon">
+        <i class="fas fa-search"></i>
+      </span>
+      <div class="search-dropdown">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+      </div>
+    </div>
+    <div class="mobile-menu-icon">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- login section -->
+
+  <section class="section">
+    <div class="login-form">
+      <!-- <img src="assets/images/register-login.webp" alt="login"> -->
+      <form action="#">
+        <h1>Login</h1>
+        <p>New here?<a href="register.html"> Create an account</a></p>
+        <label for="email">Email</label>
+        <input type="email" placeholder="Your Email or phone: no" name="email" required>
+
+        <label for="psw">Password</label>
+        <input type="password" name="psw" placeholder="Enter Your Password" required>
+
+        <!-- <label for="psw-confirm">Password</label>
+        <input type="password" name="psw-confirm" placeholder="confirm Password"> -->
+
+        <label>
+          <input type="checkbox" checked="checked" style="margin-bottom: 15px;">
+          Remember me
+        </label>
+
+        <p>By signing up, you acknowledge our <a href="#"> terms and privacy policy.</a></p>
+
+        <div class="buttons">
+          <button class="cancel-btn">Cancel</button>
+          <button class="signup-btn"><a href="index.html">Login</a></button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+ <!-- Footer section  -->
+ <footer class="footer">
+  <div class="footer-content">
+   <div class="footer-section">
+     <h3>About Us</h3>
+     <p>We are dedicated to providing quality education globally, making learning accessible to everyone.</p>
+     <ul class="contact-info">
+       <li><i class="fas fa-map-marker-alt"></i> 123 Education Street, City, Country</li>
+       <li><i class="fas fa-envelope"></i> contact@example.com</li>
+       <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+     </ul>
+   </div>
+
+   <div class="footer-section">
+     <h3>Quick Links</h3>
+     <ul class="footer-links">
+       <li><a href="index.html"></i> Home</a></li>
+       <li><a href="course.html">Courses</a></li>
+       <li><a href="about.html">About Us</a></li>
+       <li><a href="contact.html">Contact</a></li>
+       <li><a href="#">Support</a></li>
+     </ul>
+   </div>
+
+   <div class="footer-section">
+     <h3>Recent Posts</h3>
+     <ul class="footer-links">
+       <li><a href="#">Latest Education Trends</a></li>
+       <li><a href="#">Student Success Stories</a></li>
+       <li><a href="#">Teaching Resources</a></li>
+       <li><a href="#">Courses Categories</a></li>
+       <li><a href="#">Terms & Conditions</a></li>
+       <li><a href="#">Teachers & Staff</a></li>
+     </ul>
+   </div>
+
+   <div class="footer-section">
+     <h3>Newsletter</h3>
+     <p>Subscribe to our newsletter for updates</p>
+     <form class="newsletter-form">
+       <input type="email" placeholder="Enter your email">
+       <button type="submit">Subscribe</button>
+     </form>
+     <div class="social-icons">
+       <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+       <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+       <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+       <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+       <a href="#" title="LinkedIn"><i class="fab fa-youtube"></i></a>
+     </div>
+     </div>
+   </div>
+
+   <div class="footer-bottom">
+     <p>&copy; Copyright 2021 Iver Designs All Rights Reserved.</p>
+   </div>
+ </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  <script>
+    // Back to top button functionality
+    const backToTopButton = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) { // Show button after scrolling 300px
+        backToTopButton.classList.add('visible');
+      } else {
+        backToTopButton.classList.remove('visible');
+      }
+    });
+
+    backToTopButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+</script>
+   <!-- indexjs -->
+   <script src="js/functions.js"></script>
+  </body>
+</html>

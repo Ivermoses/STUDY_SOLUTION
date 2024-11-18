@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- stylesheet -->
+  <link rel="icon" href="assets/images/icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>News</title>
+</head>
+<body>
+
+  <div class="top-bar">
+    <span>Have any question? <a href="#">(+234) 7046856115</a></span>
+    <div>
+      <a href="login.html">Log In</a>
+      <a href="register.html">Register</a>
+    </div>
+  </div>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html"><img src="assets/images/logo.png" alt="Study Logo"></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="contact.html">ABOUT</a></li>
+      <li class="dropdown">
+        <a href="#">COURSES</a>
+        <div class="dropdown-content">
+          <a href="course.html">Course </a>
+          <a href="course-details.html">Course Details</a>
+        </div>
+      </li>
+      <li><a href="event.html">EVENTS</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+      <li class="dropdown">
+        <a href="#">NEWS</a>
+        <div class="dropdown-content">
+          <a href="news.html">News </a>
+          <a href="news-details.html">News Details</a>
+        </div>
+      </li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mobile-menu-close">
+      <i class="fas fa-times"></i>
+    </div>
+    <div class="search-container">
+      <span class="search-icon">
+        <i class="fas fa-search"></i>
+      </span>
+      <div class="search-dropdown">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+      </div>
+    </div>
+    <div class="mobile-menu-icon">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+<!-- header ends here  -->
+
+<!-- banner section  -->
+  <div class="banner-carousel">
+    <div class="slide active">
+      <img src="assets/images/event-banner.jpg" alt="Education Background" class="slide-bg">
+      <div class="slide-contents">
+        <h1 class="banner-title">Education News</h1>
+      </div>
+    </div>
+  </div> 
+
+  <style>
+    .banner-carousel {
+      position: relative;
+      width: 100%;
+      height: 50vh;
+      overflow: hidden;
+    }
+  
+    .banner-title {
+      text-align: center;
+      font-size: 3.5rem;
+      margin-bottom: 1.5rem;
+      transform: translateY(50px);
+      transition: all 0.8s ease-out 0.2s;
+    }
+  
+    .slide-contents {
+      position: relative;
+      height: 100%;
+      padding: 2rem 6rem;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+      color: var(--white);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+      @media (max-width: 480px) {
+      .banner-title {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        transform: translateY(30px);
+      }
+    }
+  
+  </style>
+
+  
+  <div class="news-main-container">
+    <section class="hero">
+      <h1>Latest Education News & Updates</h1>
+      <p>Stay informed about the latest trends, innovations, and developments in education.</p>
+    </section>
+
+    <div class="news-grid">
+      <article class="news-page">
+        <img src="assets/images/events-01.jpg" alt="Education News" class="news-image">
+        <div class="news-content">
+          <span class="news-category">Higher Education</span>
+          <h2 class="news-title">Universities Embrace AI in Education</h2>
+          <p class="news-excerpt">Leading universities are incorporating artificial intelligence into their curriculum to prepare students for the future workforce.</p>
+          <a href="#" class="read">Read more <i class="fas fa-arrow-right"></i></a>
+          <div class="news-meta">
+            <span><i class="far fa-clock"></i> 2 hours ago</span>
+            <span><i class="far fa-comment"></i> 15 comments</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="news-page">
+        <img src="assets/images/events-01.jpg" alt="Education News" class="news-image">
+        <div class="news-content">
+          <span class="news-category">Technology</span>
+          <h2 class="news-title">New Learning Management System Launch</h2>
+          <p class="news-excerpt">Revolutionary platform combines virtual reality with traditional learning methods for enhanced student engagement.</p>
+          <a href="#" class="read">Read more <i class="fas fa-arrow-right"></i></a>
+          <div class="news-meta">
+            <span><i class="far fa-clock"></i> 5 hours ago</span>
+            <span><i class="far fa-comment"></i> 23 comments</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="news-page">
+        <img src="assets/images/events-01.jpg" alt="Education News" class="news-image">
+        <div class="news-content">
+          <span class="news-category">K-12</span>
+          <h2 class="news-title">Schools Adopt Hybrid Learning Model</h2>
+          <p class="news-excerpt">Educational institutions nationwide are implementing flexible learning approaches to accommodate diverse student needs.</p>
+          <a href="#" class="read">Read more <i class="fas fa-arrow-right"></i></a>
+          <div class="news-meta">
+            <span><i class="far fa-clock"></i> 1 day ago</span>
+            <span><i class="far fa-comment"></i> 45 comments</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="news-page">
+        <img src="assets/images/eee.webp" alt="Education News" class="news-image">
+        <div class="news-content">
+          <span class="news-category">Higher Education</span>
+          <h2 class="news-title">New Education Policies in 2024</h2>
+          <p class="news-excerpt">Explore the latest policies shaping the future of education. Learn how these changes impact students, teachers, and parents.</p>
+          <a href="#" class="read">Read more <i class="fas fa-arrow-right"></i></a>
+          <div class="news-meta">
+            <span><i class="far fa-clock"></i> 2 hours ago</span>
+            <span><i class="far fa-comment"></i> 900 comments</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="news-page">
+        <img src="assets/images/chemical_eng.jpg" alt="Education News" class="news-image">
+        <div class="news-content">
+          <span class="news-category">Technology</span>
+          <h2 class="news-title">Online Learning Platforms Comparison</h2>
+          <p class="news-excerpt">A detailed comparison of popular online learning platforms to help students choose the right one for their needs.</p>
+          <a href="#" class="read">Read more <i class="fas fa-arrow-right"></i></a>
+          <div class="news-meta">
+            <span><i class="far fa-clock"></i> just now</span>
+            <span><i class="far fa-comment"></i> 23 comments</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="news-page">
+        <img src="assets/images/ce.webp" alt="Education News" class="news-image">
+        <div class="news-content">
+          <span class="news-category">K-12</span>
+          <h2 class="news-title">Top Scholarships for 2024</h2>
+          <p class="news-excerpt">Discover top scholarships available this year and get insights into the application process.</p>
+          <a href="#" class="read">Read more <i class="fas fa-arrow-right"></i></a>
+          <div class="news-meta">
+            <span><i class="far fa-clock"></i> 2 day ago</span>
+            <span><i class="far fa-comment"></i> 38 comments</span>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <aside class="sidebar">
+      <h3><i class="fas fa-fire"></i> Trending Topics</h3>
+      <ul class="trending-topics">
+        <li><i class="fas fa-chart-line"></i> Digital Transformation in Education</li>
+        <li><i class="fas fa-robot"></i> AI-Powered Learning Tools</li>
+        <li><i class="fas fa-globe"></i> Global Education Standards</li>
+        <li><i class="fas fa-brain"></i> Cognitive Learning Methods</li>
+        <li><i class="fas fa-laptop-code"></i> Programming in Schools</li>
+      </ul>
+    </aside>
+  </div>
+  
+  
+
+
+
+
+ <!-- Footer section  -->
+  <footer class="footer">
+   <div class="footer-content">
+    <div class="footer-section">
+      <h3>About Us</h3>
+      <p>We are dedicated to providing quality education globally, making learning accessible to everyone.</p>
+      <ul class="contact-info">
+        <li><i class="fas fa-map-marker-alt"></i> 123 Education Street, City, Country</li>
+        <li><i class="fas fa-envelope"></i> contact@example.com</li>
+        <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="index.html"></i> Home</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Recent Posts</h3>
+      <ul class="footer-links">
+        <li><a href="#">Latest Education Trends</a></li>
+        <li><a href="#">Student Success Stories</a></li>
+        <li><a href="#">Teaching Resources</a></li>
+        <li><a href="#">Courses Categories</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Teachers & Staff</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Newsletter</h3>
+      <p>Subscribe to our newsletter for updates</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+      <div class="social-icons">
+        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" title="Youtube"><i class="fab fa-youtube"></i></a>
+      </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; Copyright 2021 Iver Designs All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  <script>
+    // Back to top button functionality
+    const backToTopButton = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) { // Show button after scrolling 300px
+        backToTopButton.classList.add('visible');
+      } else {
+        backToTopButton.classList.remove('visible');
+      }
+    });
+
+    backToTopButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
+  <!-- Back to Top Button end-->
+
+  <script src="js/functions.js"></script>
+</body>
+</html>

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- stylesheet -->
+  <link rel="icon" href="assets/images/icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>About</title>
+</head>
+<body>
+
+  <div class="top-bar">
+    <span>Have any question? <a href="#">(+234) 7046856115</a></span>
+    <div>
+      <a href="login.html">Log In</a>
+      <a href="register.html">Register</a>
+    </div>
+  </div>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html"><img src="assets/images/logo.png" alt="Study Logo"></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li class="dropdown">
+        <a href="#">COURSES</a>
+        <div class="dropdown-content">
+          <a href="course.html">Course </a>
+          <a href="course-details.html">Course Details</a>
+        </div>
+      </li>
+      <li><a href="event.html">EVENT </a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+      
+      <li class="dropdown">
+        <a href="#">NEWS</a>
+        <div class="dropdown-content">
+          <a href="news.html">News </a>
+          <a href="news-details.html">News Details</a>
+        </div>
+      </li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mobile-menu-close">
+      <i class="fas fa-times"></i>
+    </div>
+    <div class="search-container">
+      <span class="search-icon">
+        <i class="fas fa-search"></i>
+      </span>
+      <div class="search-dropdown">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+      </div>
+    </div>
+    <div class="mobile-menu-icon">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+  <!-- header ends here  -->
+
+  <!-- banner section  -->
+  <div class="banner-carousel">
+    <div class="slide active">
+      <img src="assets/images/about-bg.jpg" alt="Education Background" class="slide-bg">
+      <div class="slide-contents">
+        <h1 class="banner-title">ABOUT US</h1>
+      </div>
+    </div>
+  </div> 
+
+  <style>
+    .banner-carousel {
+      position: relative;
+      width: 100%;
+      height: 50vh;
+      overflow: hidden;
+    }
+  
+    .banner-title {
+      text-align: center;
+      font-size: 3.5rem;
+      margin-bottom: 1.5rem;
+      transform: translateY(50px);
+      transition: all 0.8s ease-out 0.2s;
+    }
+  
+    .slide-contents {
+      position: relative;
+      height: 100%;
+      padding: 2rem 6rem;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+      color: var(--white);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media (max-width: 480px) {
+    .banner-title {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      transform: translateY(30px);
+    }
+    }
+  
+  </style>
+
+  <section class="education-section">
+    <div class="image-gallery">
+      <div class="student-image student-image-1">
+        <img src="assets/images/events-01.jpg" alt="Student with headphones">
+      </div>
+      <div class="student-image student-image-2">
+        <img src="assets/images/thumb-3.jpg" alt="Professional instructor">
+      </div>
+      <div class="student-image student-image-3">
+        <img src="assets/images/events-3.jpg" alt="Student studying">
+      </div>
+    </div>
+
+    <div class="content-section">
+      <div class="section-tag">
+       <i class="fas fa-info-circle"></i> ABOUT US
+      </div>
+      <h1 class="section-heading">We Are Always Ensure Best Course For Your <span>Learning</span></h1>
+      <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+      
+      <div class="feature-list">
+        <div class="feature-item">
+          <div class="feature-icon">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <div class="feature-content">
+            <h3>Sharing A Screen</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <div class="feature-content">
+            <h3>Presenter Control</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="admission-button">Admission Open <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="decoration-arrows">
+      ›››››››››››
+    </div>
+  </section>
+
+  <!-- stats section  -->
+
+  <div class="statics">
+    <div class="stats-container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-icon">👨‍🏫</div>
+          <div class="stat-number" data-target="79">0</div>
+          <div class="stat-label">Teachers</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">👨‍🎓</div>
+          <div class="stat-number" data-target="750">0</div>
+          <div class="stat-label">Students</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">📚</div>
+          <div class="stat-number" data-target="36">0</div>
+          <div class="stat-label">Courses</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">🌍</div>
+          <div class="stat-number" data-target="20">0</div>
+          <div class="stat-label">Countries</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-icon">💻</div>
+          <div class="stat-number" data-target="700">0</div>
+          <div class="stat-label">Online Students</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- testimonials section -->
+  <section class="testimonial-section">
+    <h1 class="section-title">Student Say!</h1>
+    <p class="section-subtitle">If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text</p>
+    
+    <div class="testimonial-container">
+      <div class="testimonial-wrapper">
+        <!-- Card 1 -->
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="assets/images/student-1.jpg" alt="Student 1" class="testimonial-image">
+            <div class="testimonial-info">
+              <h3>– Lissa Castro</h3>
+              <p class="role">student</p>
+            </div>
+          </div>
+          <p class="testimonial-text">I love that I can use Study Solution anywhere, anytime. The mobile access and the variety of content types make studying flexible and convenient. It's the best online study platform I've tried!</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="assets/images/student-2.jpg" alt="Student 2" class="testimonial-image">
+            <div class="testimonial-info">
+              <h3>– Emily T</h3>
+              <p class="role">student</p>
+            </div>
+          </div>
+          <p class="testimonial-text">With Study Solution, I can study at my own pace. The collaborative study groups and discussion forums helped me connect with others, making learning more fun and less stressful.</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="assets/images/student-3.jpg" alt="Student 3" class="testimonial-image">
+            <div class="testimonial-info">
+              <h3>– Luise Katie</h3>
+              <p class="role">Graduate Student</p>
+            </div>
+          </div>
+          <p class="testimonial-text">I was struggling with exam prep, but Study Solution's resources were exactly what I needed. The interactive videos and progress tracking made it easy to see where I was improving. I highly recommend it!.</p>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="assets/images/student-4.jpg" alt="Student 4" class="testimonial-image">
+            <div class="testimonial-info">
+              <h3>– Sarah L. </h3>
+              <p class="role">University Student</p>
+            </div>
+          </div>
+          <p class="testimonial-text">Study Solution completely transformed my study routine. The personalized learning paths kept me focused, and the tools like quizzes and flashcards helped me retain so much more! I actually enjoy studying now.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-pagination">
+      <button class="testimonial-page-dot testimonial-page-dot--active" data-index="0"></button>
+      <button class="testimonial-page-dot" data-index="1"></button>
+    </div>
+  </section>
+
+  <!-- news letter -->
+  <div class="newsletter-container">
+    <div class="newsletter-content">
+      <h2>Join Our Newsletter</h2>
+      <p>Subscribe our newsletter to get our latest update & news.</p>
+      <div class="newsletter-form">
+        <input type="email" placeholder="Enter your email:" />
+        <button class="subscribe-btn">Subscribe Now</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+ <!-- Footer section  -->
+  <footer class="footer">
+   <div class="footer-content">
+    <div class="footer-section">
+      <h3>About Us</h3>
+      <p>We are dedicated to providing quality education globally, making learning accessible to everyone.</p>
+      <ul class="contact-info">
+        <li><i class="fas fa-map-marker-alt"></i> 123 Education Street, City, Country</li>
+        <li><i class="fas fa-envelope"></i> contact@example.com</li>
+        <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="index.html"></i> Home</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Recent Posts</h3>
+      <ul class="footer-links">
+        <li><a href="#">Latest Education Trends</a></li>
+        <li><a href="#">Student Success Stories</a></li>
+        <li><a href="#">Teaching Resources</a></li>
+        <li><a href="#">Courses Categories</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Teachers & Staff</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Newsletter</h3>
+      <p>Subscribe to our newsletter for updates</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+      <div class="social-icons">
+        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" title="Youtube"><i class="fab fa-youtube"></i></a>
+      </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; Copyright 2021 Iver Designs All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  <script>
+    // Back to top button functionality
+    const backToTopButton = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) { // Show button after scrolling 300px
+        backToTopButton.classList.add('visible');
+      } else {
+        backToTopButton.classList.remove('visible');
+      }
+    });
+
+    backToTopButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
+
+  <!-- statistics functionalities  -->
+  <script>
+    // Counter animation function
+    function animateCounter(element, target) {
+      let current = 0;
+      const increment = target / 100;
+      const duration = 2000; // 2 seconds
+      const interval = duration / 100;
+
+      const timer = setInterval(() => {
+        current += increment;
+        if (current >= target) {
+          element.textContent = Math.round(target) + '+';
+          clearInterval(timer);
+        } else {
+          element.textContent = Math.round(current) + '+';
+        }
+      }, interval);
+    }
+
+    // Intersection Observer for triggering animations when in view
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const target = parseInt(entry.target.getAttribute('data-target'));
+          animateCounter(entry.target, target);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.5
+    });
+    
+    // Observe all counter elements
+    document.querySelectorAll('.stat-number').forEach(counter => {
+      observer.observe(counter);
+    });
+
+  </script>
+   
+  <!-- Back to Top Button end-->
+  <script src="js/functions.js"></script>
+  <script>
+
+    // Mobile menu functionality
+    const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
+    const mobileMenuClose = document.querySelector('.mobile-menu-close');
+    const navLinks = document.querySelector('.nav-links');
+
+    mobileMenuIcon.addEventListener('click', () => {
+      navLinks.classList.add('active');
+    });
+
+    mobileMenuClose.addEventListener('click', () => {
+      navLinks.classList.remove('active');
+    });
+
+    // Mobile dropdown functionality
+    const dropdowns = document.querySelectorAll('.dropdown');
+
+    dropdowns.forEach(dropdown => {
+      dropdown.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768) {
+          e.preventDefault();
+          dropdown.classList.toggle('active');
+        }
+      });
+    });
+
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', (e) => {
+      if (!e.target.closest('.nav-links') && 
+        !e.target.closest('.mobile-menu-icon') && 
+        !e.target.closest('.mobile-menu-close')) {
+        navLinks.classList.remove('active');
+      }
+    });
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+      const testimonialWrapper = document.querySelector('.testimonial-wrapper');
+      const testimonialPageDots = document.querySelectorAll('.testimonial-page-dot');
+      let testimonialCurrentIndex = 0;
+  
+      function updateTestimonialSlider(index) {
+        const cards = document.querySelectorAll('.testimonial-card');
+        const cardWidth = cards[0].offsetWidth;
+        const gap = parseInt(window.getComputedStyle(testimonialWrapper).gap);
+        
+        // Calculate total width (card width + gap) to slide
+        const slideAmount = index * -(cardWidth + gap);
+        testimonialWrapper.style.transform = `translateX(${slideAmount}px)`;
+        
+        // Update active button
+        testimonialPageDots.forEach(dot => dot.classList.remove('testimonial-page-dot--active'));
+        testimonialPageDots[Math.floor(index/2)].classList.add('testimonial-page-dot--active');
+      }
+  
+      testimonialPageDots.forEach(button => {
+        button.addEventListener('click', () => {
+          const index = parseInt(button.dataset.index) * 2;
+          testimonialCurrentIndex = index;
+          updateTestimonialSlider(testimonialCurrentIndex);
+        });
+      });
+  
+      // Handle responsive layout
+      window.addEventListener('resize', () => {
+        updateTestimonialSlider(testimonialCurrentIndex);
+      });
+    });
+  </script> 
+</body>
+</html>

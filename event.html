@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- stylesheet -->
+  <link rel="icon" href="assets/images/icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>Events</title>
+</head>
+<body>
+
+  <div class="top-bar">
+    <span>Have any question? <a href="#">(+234) 7046856115</a></span>
+    <div>
+      <a href="login.html">Log In</a>
+      <a href="register.html">Register</a>
+    </div>
+  </div>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html"><img src="assets/images/logo.png" alt="Study Logo"></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="contact.html">ABOUT</a></li>
+      <li class="dropdown">
+        <a href="#">COURSES</a>
+        <div class="dropdown-content">
+          <a href="course.html">Course </a>
+          <a href="course-details.html">Course Details</a>
+        </div>
+      </li>
+      <li><a href="event.html">EVENT</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+      
+      <li class="dropdown">
+        <a href="#">NEWS</a>
+        <div class="dropdown-content">
+          <a href="news.html">News </a>
+          <a href="news-details.html">News Details</a>
+        </div>
+      </li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mobile-menu-close">
+      <i class="fas fa-times"></i>
+    </div>
+    <div class="search-container">
+      <span class="search-icon">
+        <i class="fas fa-search"></i>
+      </span>
+      <div class="search-dropdown">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+      </div>
+    </div>
+    <div class="mobile-menu-icon">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+  <!-- header ends here  -->
+
+  <!-- banner section  -->
+  <div class="banner-carousel">
+    <div class="slide active">
+      <img src="assets/images/event-banner.jpg" alt="Education Background" class="slide-bg">
+      <div class="slide-contents">
+        <h1 class="banner-title">Our events</h1>
+      </div>
+    </div>
+  </div> 
+
+  <style>
+    .banner-carousel {
+      position: relative;
+      width: 100%;
+      height: 50vh;
+      overflow: hidden;
+    }
+  
+    .banner-title {
+      text-align: center;
+      font-size: 3.5rem;
+      margin-bottom: 1.5rem;
+      transform: translateY(50px);
+      transition: all 0.8s ease-out 0.2s;
+    }
+  
+    .slide-contents {
+      position: relative;
+      height: 100%;
+      padding: 2rem 6rem;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+      color: var(--white);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    @media (max-width: 480px) {
+    .banner-title {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      transform: translateY(30px);
+    }
+  }
+  
+  </style>
+
+  <!-- events section  -->
+
+  <div class="events-container">
+    <div class="events-content">
+      <h2>Our events</h2>
+      <p>Join us for our dynamic lineup of educational events designed to empower and inspire learners at every stage of their journey. From hands-on UX/UI design workshops to comprehensive digital marketing seminars, our carefully curated events bring together industry experts, thought leaders, and passionate educators to share cutting-edge insights and practical knowledge. Whether you're a student, professional, or lifelong learner, our diverse range of virtual and in-person events offers unique opportunities to expand your skills, network with peers, and stay ahead in today's rapidly evolving educational landscape. Discover, learn, and grow with our community of forward-thinking educators and innovators.</p>
+    </div>
+    <div class="events-grid">
+      <!-- Event Card 1 -->
+      <div class="event-card">
+        <img src="assets/images/events-01.jpg" alt="Event Image" class="event-image">
+        <div class="event-content">
+          <h3 class="event-title">Basic UX UI Design for new development</h3>
+          <div class="event-meta">
+            <span class="event-meta-item">
+              <i class="far fa-calendar"></i>
+              December 15, 2023
+            </span>
+            <span class="event-meta-item">
+              <i class="far fa-clock"></i>
+              2:00 PM
+            </span>
+            <span class="event-meta-item">
+              <i class="fas fa-map-marker-alt"></i>
+              Online
+            </span>
+          </div>
+          <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#" class="event-link">READ MORE →</a>
+        </div>
+      </div>
+
+      <!-- Event Card 2 -->
+      <div class="event-card">
+        <img src="assets/images/events-02.jpg" alt="Event Image" class="event-image">
+        <div class="event-content">
+          <h3 class="event-title">Lockdown Discipline Success</h3>
+          <div class="event-meta">
+            <span class="event-meta-item">
+              <i class="far fa-calendar"></i>
+              December 16, 2023
+            </span>
+            <span class="event-meta-item">
+              <i class="far fa-clock"></i>
+              3:00 PM
+            </span>
+            <span class="event-meta-item">
+              <i class="fas fa-map-marker-alt"></i>
+              Online
+            </span>
+          </div>
+          <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#" class="event-link">READ MORE →</a>
+        </div>
+      </div>
+
+      <!-- Event Card 3 -->
+      <div class="event-card">
+        <img src="assets/images/events-03.jpg" alt="Event Image" class="event-image">
+        <div class="event-content">
+          <h3 class="event-title">Digital Education Market Briefing</h3>
+          <div class="event-meta">
+            <span class="event-meta-item">
+              <i class="far fa-calendar"></i>
+              December 17, 2023
+            </span>
+            <span class="event-meta-item">
+              <i class="far fa-clock"></i>
+              4:00 PM
+            </span>
+            <span class="event-meta-item">
+              <i class="fas fa-map-marker-alt"></i>
+              Online
+            </span>
+          </div>
+          <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#" class="event-link">READ MORE →</a>
+        </div>
+      </div>
+      <!-- Event Card 4 -->
+      <div class="event-card">
+        <img src="assets/images/events-04.jpg" alt="Event Image" class="event-image">
+        <div class="event-content">
+          <h3 class="event-title">Basic UX UI Design for new development</h3>
+          <div class="event-meta">
+            <span class="event-meta-item">
+              <i class="far fa-calendar"></i>
+              December 15, 2023
+            </span>
+            <span class="event-meta-item">
+              <i class="far fa-clock"></i>
+              2:00 PM
+            </span>
+            <span class="event-meta-item">
+              <i class="fas fa-map-marker-alt"></i>
+              Online
+            </span>
+          </div>
+          <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#" class="event-link">READ MORE →</a>
+        </div>
+      </div>
+
+      <!-- Event Card 5 -->
+      <div class="event-card">
+        <img src="assets/images/events-05.jpg" alt="Event Image" class="event-image">
+        <div class="event-content">
+          <h3 class="event-title">Lockdown Discipline Success</h3>
+          <div class="event-meta">
+            <span class="event-meta-item">
+              <i class="far fa-calendar"></i>
+              December 16, 2023
+            </span>
+            <span class="event-meta-item">
+              <i class="far fa-clock"></i>
+              3:00 PM
+            </span>
+            <span class="event-meta-item">
+              <i class="fas fa-map-marker-alt"></i>
+              Online
+            </span>
+          </div>
+          <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#" class="event-link">READ MORE →</a>
+        </div>
+      </div>
+
+      <!-- Event Card 6 -->
+      <div class="event-card">
+        <img src="assets/images/events-06.jpg" alt="Event Image" class="event-image">
+        <div class="event-content">
+          <h3 class="event-title">Digital Education Market Briefing</h3>
+          <div class="event-meta">
+            <span class="event-meta-item">
+              <i class="far fa-calendar"></i>
+              December 17, 2023
+            </span>
+            <span class="event-meta-item">
+              <i class="far fa-clock"></i>
+              4:00 PM
+            </span>
+            <span class="event-meta-item">
+              <i class="fas fa-map-marker-alt"></i>
+              Online
+            </span>
+          </div>
+          <p class="event-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <a href="#" class="event-link">READ MORE →</a>
+        </div>
+      </div>
+    </div>
+    <button class="load-more-btn"><a href="#">VIEW ALL EVENTS</a></button>
+  </div>
+
+  <!-- upcoming events -->
+
+  <div class="custom-events-container">
+    <div class="events-content">
+      <h2>upcoming Events</h2>
+    </div>
+    <div class="custom-events-header">
+        <div class="custom-events-search">
+          <input type="text" placeholder="Search for events">
+          <button>FIND EVENTS</button>
+        </div>
+        <div class="custom-dropdown-container">
+          <button class="custom-dropdown-button">
+            UPCOMING
+            <svg width="12" height="12" viewBox="0 0 12 12">
+              <path d="M2 4L6 8L10 4" stroke="currentColor" fill="none"/>
+            </svg>
+          </button>
+          <div class="custom-calendar-dropdown">
+            <div class="custom-calendar-header">
+              <span class="custom-calendar-month">October 2024</span>
+              <div class="custom-calendar-nav">
+                <button class="custom-calendar-prev">←</button>
+                <button class="custom-calendar-next">→</button>
+              </div>
+            </div>
+            <div class="custom-calendar-grid">
+              <!-- Calendar days will be inserted here by JavaScript -->
+            </div>
+          </div>
+        </div>
+        <div class="custom-events-view-options">
+          <button class="active">List</button>
+          <button>Month</button>
+          <button>Day</button>
+        </div>
+    </div>
+
+    <!-- Example event card -->
+    <div class="custom-event-card">
+      <div class="custom-event-date">
+        <div class="custom-event-date-day">1</div>
+        <div>OCT</div>
+      </div>
+      <div class="custom-event-content">
+        <h3>Prayer for peace</h3>
+        <p>Location: Student Union Building</p>
+        <p>Time: 10:00 AM - 5:00 PM</p>
+      </div>
+      <img src="/assets/images/prayer.jpg" alt="Event" class="custom-event-image">
+    </div>
+    <div class="custom-event-card">
+      <div class="custom-event-date">
+        <div class="custom-event-date-day">2</div>
+        <div>OCT</div>
+      </div>
+      <div class="custom-event-content">
+        <h3>Arts and culture</h3>
+        <p>Location: Lecture Hall</p>
+        <p>Time: 5:00 AM - 5:00 PM</p>
+      </div>
+      <img src="/assets/images/arts.jpg" alt="Event" class="custom-event-image">
+    </div>
+    <div class="custom-event-card">
+      <div class="custom-event-date">
+        <div class="custom-event-date-day">3</div>
+        <div>OCT</div>
+      </div>
+      <div class="custom-event-content">
+        <h3>Graduate School Fair</h3>
+        <p>Location: Student Union Building</p>
+        <p>Time: 9:00 AM - 5:00 PM</p>
+      </div>
+      <img src="assets/images/gratuate.jpg" alt="Event" class="custom-event-image">
+    </div>
+    <div class="custom-event-card">
+      <div class="custom-event-date">
+        <div class="custom-event-date-day">4</div>
+        <div>OCT</div>
+      </div>
+      <div class="custom-event-content">
+        <h3>Social Media Workshop</h3>
+        <p>Location: Student Union Building</p>
+        <p>Time: 9:00 AM - 5:00 PM</p>
+      </div>
+      <img src="assets/images/social.jpg" alt="Event" class="custom-event-image">
+    </div>
+    <div class="custom-event-card">
+      <div class="custom-event-date">
+        <div class="custom-event-date-day">5</div>
+        <div>OCT</div>
+      </div>
+      <div class="custom-event-content">
+        <h3>Students Workshop</h3>
+        <p>Location: Student Union Building</p>
+        <p>Time: 9:00 AM - 5:00 PM</p>
+      </div>
+      <img src="assets/images/work.jpg" alt="Event" class="custom-event-image">
+    </div>
+  </div>
+  
+  
+
+
+
+
+  <!-- Footer section  -->
+  <footer class="footer">
+   <div class="footer-content">
+    <div class="footer-section">
+      <h3>About Us</h3>
+      <p>We are dedicated to providing quality education globally, making learning accessible to everyone.</p>
+      <ul class="contact-info">
+        <li><i class="fas fa-map-marker-alt"></i> 123 Education Street, City, Country</li>
+        <li><i class="fas fa-envelope"></i> contact@example.com</li>
+        <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="index.html"></i> Home</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Recent Posts</h3>
+      <ul class="footer-links">
+        <li><a href="#">Latest Education Trends</a></li>
+        <li><a href="#">Student Success Stories</a></li>
+        <li><a href="#">Teaching Resources</a></li>
+        <li><a href="#">Courses Categories</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Teachers & Staff</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Newsletter</h3>
+      <p>Subscribe to our newsletter for updates</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+      <div class="social-icons">
+        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" title="Youtube"><i class="fab fa-youtube"></i></a>
+      </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; Copyright 2021 Iver Designs All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  <script>
+    // Back to top button functionality
+    const backToTopButton = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) { // Show button after scrolling 300px
+        backToTopButton.classList.add('visible');
+      } else {
+        backToTopButton.classList.remove('visible');
+      }
+    });
+
+    backToTopButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
+  <!-- Back to Top Button end-->
+
+  <!-- upcoming events js  -->
+  <script>
+    class EventsCalendar {
+      constructor() {
+        this.dropdownButton = document.querySelector('.custom-dropdown-button');
+        this.calendarDropdown = document.querySelector('.custom-calendar-dropdown');
+        this.prevButton = document.querySelector('.custom-calendar-prev');
+        this.nextButton = document.querySelector('.custom-calendar-next');
+        this.monthDisplay = document.querySelector('.custom-calendar-month');
+        this.calendarGrid = document.querySelector('.custom-calendar-grid');
+            
+        this.currentDate = new Date();
+        this.selectedDate = null;
+        
+        this.initializeEventListeners();
+        this.renderCalendar();
+      }
+  
+      initializeEventListeners() {
+        // Toggle dropdown
+        this.dropdownButton.addEventListener('click', () => {
+          this.calendarDropdown.style.display = 
+            this.calendarDropdown.style.display === 'none' ? 'block' : 'none';
+        });
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', (e) => {
+          if (!this.dropdownButton.contains(e.target) && 
+              !this.calendarDropdown.contains(e.target)) {
+              this.calendarDropdown.style.display = 'none';
+          }
+        });
+  
+            // Navigation buttons
+            this.prevButton.addEventListener('click', () => {
+              this.currentDate.setMonth(this.currentDate.getMonth() - 1);
+              this.renderCalendar();
+            });
+  
+            this.nextButton.addEventListener('click', () => {
+              this.currentDate.setMonth(this.currentDate.getMonth() + 1);
+              this.renderCalendar();
+            });
+        }
+  
+        renderCalendar() {
+          const year = this.currentDate.getFullYear();
+          const month = this.currentDate.getMonth();
+          
+          // Update month display
+          const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+            'July', 'August', 'September', 'October', 'November', 'December'];
+          this.monthDisplay.textContent = `${monthNames[month]} ${year}`;
+
+          // Clear existing calendar
+          this.calendarGrid.innerHTML = '';
+
+          // Add day headers
+          const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+          dayNames.forEach(day => {
+            const dayHeader = document.createElement('div');
+            dayHeader.className = 'custom-calendar-day';
+            dayHeader.textContent = day;
+            this.calendarGrid.appendChild(dayHeader);
+          });
+
+          // Get first day of month and total days
+          const firstDay = new Date(year, month, 1).getDay();
+          const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+          // Add blank cells for days before start of month
+          for (let i = 0; i < firstDay; i++) {
+            const blankDay = document.createElement('div');
+            blankDay.className = 'custom-calendar-day';
+            this.calendarGrid.appendChild(blankDay);
+          }
+  
+        // Add days of month
+        for (let day = 1; day <= daysInMonth; day++) {
+          const dayCell = document.createElement('div');
+          dayCell.className = 'custom-calendar-day';
+          dayCell.textContent = day;
+          
+          if (this.selectedDate && 
+            day === this.selectedDate.getDate() && 
+            month === this.selectedDate.getMonth() && 
+            year === this.selectedDate.getFullYear()) {
+            dayCell.classList.add('active');
+          }
+
+          dayCell.addEventListener('click', () => {
+            this.selectedDate = new Date(year, month, day);
+            this.renderCalendar();
+            // Here you would typically trigger an event filter/search
+            console.log(`Selected date: ${this.selectedDate.toDateString()}`);
+          });
+
+          this.calendarGrid.appendChild(dayCell);
+        }
+      }
+    }
+  
+    // Initialize calendar
+    new EventsCalendar();
+  </script>
+  <script src="js/functions.js"></script>
+</body>
+</html>

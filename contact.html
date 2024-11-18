@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- stylesheet -->
+  <link rel="icon" href="assets/images/icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>Contact</title>
+</head>
+<body>
+
+  <div class="top-bar">
+    <span>Have any question? <a href="#">(+234) 7046856115</a></span>
+    <div>
+      <a href="login.html">Log In</a>
+      <a href="register.html">Register</a>
+    </div>
+  </div>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html"><img src="assets/images/logo.png" alt="Study Logo"></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li class="dropdown">
+        <a href="#">COURSES</a>
+        <div class="dropdown-content">
+          <a href="course.html">Course </a>
+          <a href="course-details.html">Course Details</a>
+        </div>
+      </li>
+      <li><a href="event.html">EVENT</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+      
+      <li class="dropdown">
+        <a href="#">NEWS</a>
+        <div class="dropdown-content">
+          <a href="news.html">News </a>
+          <a href="news-details.html">News Details</a>
+        </div>
+      </li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mobile-menu-close">
+      <i class="fas fa-times"></i>
+    </div>
+    <div class="search-container">
+      <span class="search-icon">
+        <i class="fas fa-search"></i>
+      </span>
+      <div class="search-dropdown">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+      </div>
+    </div>
+    <div class="mobile-menu-icon">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+  <!-- header ends here  -->
+
+  <!-- banner section  -->
+  <div class="banner-carousel">
+    <div class="slide active">
+      <img src="assets/images/contact_bg.webp" alt="Education Background" class="slide-bg">
+      <div class="slide-contents">
+        <h1 class="banner-title">CONTACT US</h1>
+      </div>
+    </div>
+  </div> 
+
+  <style>
+  .banner-carousel {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+  }
+
+  .banner-title {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    transform: translateY(50px);
+    transition: all 0.8s ease-out 0.2s;
+  }
+
+  .slide-contents {
+    position: relative;
+    height: 100%;
+    padding: 2rem 6rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 480px) {
+    .banner-title {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      transform: translateY(30px);
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .banner-title {
+      font-size: 1rem;
+      margin-bottom: 0.8rem;
+      transform: translateY(25px);
+    }
+  }
+  </style>
+
+  <div class="contact-container">
+    <h1 class="contact-title">General Contact Information</h1>
+    <div class="contact-grid">
+      <!-- Address -->
+      <div class="contact-item">
+        <i class="fa-solid fa-location-dot contact-icon"></i>
+        <div class="contact-infos">
+          400 Broome St, New York,<br>
+          NY 10013, USA
+        </div>
+      </div>
+
+      <!-- Phone -->
+      <div class="contact-item">
+        <i class="fa-solid fa-phone contact-icon"></i>
+        <div class="contact-infos phone-numbers">
+          <span>+44 20 4154 2541</span>
+          <span>+44 20 4154 2542</span>
+        </div>
+      </div>
+
+      <!-- Hours -->
+      <div class="contact-item">
+        <i class="fa-regular fa-clock contact-icon"></i>
+        <div class="contact-infos">
+          <p>Mon-Fri: 9 AM – 6 PM</p>
+          <p>Saturday: 9 AM – 4 PM</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- other campus address -->
+  <div class="campus-container">
+    <h1 class="campus-title">Other Campus Contacts</h1>
+    <div class="campus-grid">
+      <!-- London Campus -->
+      <div class="campus-card">
+        <img src="assets/images/califonia.webp" alt="London Campus" class="campus-image">
+        <div class="campus-overlay">
+          <h2 class="campus-location">London</h2>
+          <p class="campus-address">University of London, 15 Talbot Square, Tyburnia, London W2 1TT, UK</p>
+          <p class="campus-phone">+44 20 4154 2555</p>
+          <p class="campus-email">Unipix.info@edu</p>
+        </div>
+      </div>
+
+      <!-- New York Campus -->
+      <div class="campus-card">
+        <img src="assets/images/london.webp" alt="New York Campus" class="campus-image">
+        <div class="campus-overlay">
+          <h2 class="campus-location">New York</h2>
+          <p class="campus-address">80 Washington Square E, New York, NY 10003, USA</p>
+          <p class="campus-phone">+44 20 4154 200</p>
+          <p class="campus-email">supports.info@edu</p>
+        </div>
+      </div>
+
+      <!-- Boston Campus -->
+      <div class="campus-card">
+        <img src="assets/images/buston_city.webp" alt="Boston Campus" class="campus-image">
+        <div class="campus-overlay">
+          <h2 class="campus-location">Boston</h2>
+          <p class="campus-address">Center for Computing & Data Sciences, 665 Commonwealth Ave, Boston, MA 02215, USA</p>
+          <p class="campus-phone">+44 20 4154 2541</p>
+          <p class="campus-email">example.info@edu</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-section">
+
+    <div class="location-map">
+      <h2>MAP LOCATION</h2>,
+      <div class="map">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253682.4631072523!2d3.119142334570334!3d6.548369371815341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b2ae68280c1%3A0xdc9e87a367c3d9cb!2sLagos!5e0!3m2!1sen!2sng!4v1730927520551!5m2!1sen!2sng" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          width="100%" 
+          height="350px" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+    <div class="contact-form">
+      <h2>CONTACT US</h2>
+      <form>
+        <div class="form-group">
+          <input type="text" placeholder="Full Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Email Address" required>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Write Message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">SUBMIT MESSAGE</button>
+      </form>
+    </div>
+  </div>
+
+
+
+  <!-- Footer section  -->
+  <footer class="footer">
+   <div class="footer-content">
+    <div class="footer-section">
+      <h3>About Us</h3>
+      <p>We are dedicated to providing quality education globally, making learning accessible to everyone.</p>
+      <ul class="contact-info">
+        <li><i class="fas fa-map-marker-alt"></i> 123 Education Street, City, Country</li>
+        <li><i class="fas fa-envelope"></i> contact@example.com</li>
+        <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="index.html"></i> Home</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Recent Posts</h3>
+      <ul class="footer-links">
+        <li><a href="#">Latest Education Trends</a></li>
+        <li><a href="#">Student Success Stories</a></li>
+        <li><a href="#">Teaching Resources</a></li>
+        <li><a href="#">Courses Categories</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Teachers & Staff</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Newsletter</h3>
+      <p>Subscribe to our newsletter for updates</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+      <div class="social-icons">
+        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" title="Youtube"><i class="fab fa-youtube"></i></a>
+      </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; Copyright 2021 Iver Designs All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  <script>
+    // Back to top button functionality
+    const backToTopButton = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) { // Show button after scrolling 300px
+        backToTopButton.classList.add('visible');
+      } else {
+        backToTopButton.classList.remove('visible');
+      }
+    });
+
+    backToTopButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
+  <!-- Back to Top Button end-->
+  <script src="js/functions.js"></script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- stylesheet -->
+  <link rel="icon" href="assets/images/icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>GALLERY</title>
+</head>
+<body>
+
+  <div class="top-bar">
+    <span>Have any question? <a href="#">(+234) 7046856115</a></span>
+    <div>
+      <a href="login.html">Log In</a>
+      <a href="register.html">Register</a>
+    </div>
+  </div>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="index.html"><img src="assets/images/logo.png" alt="Study Logo"></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li class="dropdown">
+        <a href="#">COURSES</a>
+        <div class="dropdown-content">
+          <a href="course.html">Course </a>
+          <a href="course-details.html">Course Details</a>
+        </div>
+      </li>
+      <li><a href="event.html">EVENT</a></li>
+      <li><a href="gallery.html">GALLERY</a></li>
+    
+      <li class="dropdown">
+        <a href="#">NEWS</a>
+        <div class="dropdown-content">
+          <a href="news.html">News </a>
+          <a href="news-details.html">News Details</a>
+        </div>
+      </li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+    <div class="mobile-menu-close">
+      <i class="fas fa-times"></i>
+    </div>
+    <div class="search-container">
+      <span class="search-icon">
+        <i class="fas fa-search"></i>
+      </span>
+      <div class="search-dropdown">
+        <input type="text" placeholder="Search...">
+        <button>Search</button>
+      </div>
+    </div>
+    <div class="mobile-menu-icon">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+  <!-- header ends here  -->
+
+  <!-- banner section  -->
+  <div class="carousel">
+    <div class="slide active">
+      <img src="assets/images/slide-1.webp" alt="Education Background" class="slide-bg">
+      <div class="slide-content">
+        <h3 class="welcome-text">Welcome To Study</h3>
+        <h1 class="title">The Best Learning Institution</h1>
+        <p class="description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+        <button class="btn"><a href="#">View Courses</a></button>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="assets/images/slide-2.webp" alt="Education Background" class="slide-bg">
+      <div class="slide-content">
+        <h3 class="welcome-text">Welcome To Study</h3>
+        <h1 class="title">The Best Learning Institution</h1>
+        <p class="description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+        <button class="btn"><a href="#">View Courses</a></button>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="assets/images/about.webp" alt="Education Background" class="slide-bg">
+      <div class="slide-content">
+        <h3 class="welcome-text">Welcome To Study Solution</h3>
+        <h1 class="title">The Best Learning Institution</h1>
+        <p class="description">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+        <button class="btn"><a href="#">View Courses</a></button>
+      </div>
+    </div>
+    <div class="nav-buttons">
+      <button class="nav-btn prev">←</button>
+      <button class="nav-btn next">→</button>
+    </div>
+  </div> 
+
+  <!--our gallery section-->
+  <section class="section">
+    <div class="gallery-container">
+      <div class="gallery-header">
+        <h1>Our Gallery</h1>
+        <p>Our  <span>Study Solution</span> gallery showcases a collection of student success stories, interactive learning tools, and course previews. Explore visual snapshots of our intuitive interface, engaging video tutorials, and collaborative study features. Our gallery highlights the diverse resources available, from flashcards and quizzes to group study sessions, giving you a glimpse of the immersive and effective learning experience we offer. Dive in to see how  <span>Study Solution</span> transforms online education into a dynamic, engaging, and supportive journey tailored to every learner's needs.</p>
+        <div class="gallery-nav">
+          <button class="active" data-category="all">All</button>
+          <button data-category="events">Events</button>
+          <button data-category="library">Library</button>
+          <button data-category="campus">Campus</button>
+        </div>
+      </div>
+
+      <div class="gallery-grid">
+        <!-- Gallery items will be dynamically populated -->
+      </div>
+    </div>
+
+    <div class="modal">
+      <button class="close-modal">&times;</button>
+      <img src="" alt="Full size image">
+    </div>
+  </section>
+
+
+ <!-- Footer section  -->
+  <footer class="footer">
+   <div class="footer-content">
+    <div class="footer-section">
+      <h3>About Us</h3>
+      <p>We are dedicated to providing quality education globally, making learning accessible to everyone.</p>
+      <ul class="contact-info">
+        <li><i class="fas fa-map-marker-alt"></i> 123 Education Street, City, Country</li>
+        <li><i class="fas fa-envelope"></i> contact@example.com</li>
+        <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul class="footer-links">
+        <li><a href="index.html"></i> Home</a></li>
+        <li><a href="course.html">Courses</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Recent Posts</h3>
+      <ul class="footer-links">
+        <li><a href="#">Latest Education Trends</a></li>
+        <li><a href="#">Student Success Stories</a></li>
+        <li><a href="#">Teaching Resources</a></li>
+        <li><a href="#">Courses Categories</a></li>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Teachers & Staff</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Newsletter</h3>
+      <p>Subscribe to our newsletter for updates</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+      <div class="social-icons">
+        <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" title="Youtube"><i class="fab fa-youtube"></i></a>
+      </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; Copyright 2021 Iver Designs All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+  <script>
+    // Back to top button functionality
+    const backToTopButton = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) { // Show button after scrolling 300px
+        backToTopButton.classList.add('visible');
+      } else {
+        backToTopButton.classList.remove('visible');
+      }
+    });
+
+    backToTopButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  </script>
+  <!-- Back to Top Button end-->
+  <script src="js/functions.js"></script>
+</body>
+</html>
